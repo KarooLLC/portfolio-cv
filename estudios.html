@@ -3,41 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Karol Nikolay Chaguay Medina | Estudios</title>
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
-<body style="font-family: Product Sans, sans-serif; margin: 50px;">
+<body>
 
-    <h1 style="color: #ffffff; background-color: yellowgreen;">Karol Nikolay Chaguay Medina</h1>
-    <img src="img/world.jpg" alt="Foto de perfil" width="200">
+    <header class="encabezado">
+        <img src="img/world.jpg" alt="Foto de perfil" class="perfil">
+        <div class="datos-personales">
+            <h1>Karol Nikolay Chaguay Medina</h1>
+            <p>Estudiante de Ingeniería de Software</p>
+        </div>
+    </header>
 
     <nav>
         <ul>
-            <li><a href="index.html">Pagina Principal</a></li>
+            <li><a href="index.html">Inicio</a></li>
             <li><a href="habilidades.html">Habilidades</a></li>
             <li><a href="experiencia.html">Experiencia</a></li>
+            <li><a href="estudios.html">Estudios</a></li>
             <li><a href="cursos.html">Cursos</a></li>
+            <li><a href="contacto.html">Contáctame</a></li>
             <li><a href="referencias.html">Referencias</a></li>
         </ul>
     </nav>
 
-    <h2>Estudios realizados</h2>
-    <table border="1">
-        <tr>
-            <th>Institución</th>
-            <th>Grado</th>
-            <th>Año</th>
-        </tr>
-        <tr>
-            <td>Colegio Marcos Benetezzo</td>
-            <td>Bachiller en Ciencias</td>
-            <td>2020 - 2023</td>
-        </tr>
-        <tr>
-            <td>Universidad de Guayaquil</td>
-            <td>Ing. en Software</td>
-            <td>2024 - 2026</td>
-        </tr>
-    </table>
+    <main class="contenido">
+        <h2>Estudios realizados</h2>
+
+        <div class="tabla-contenedor">
+            <table class="tabla-estilos">
+                <thead>
+                    <tr>
+                        <th>Institución</th>
+                        <th>Grado</th>
+                        <th>Año</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Colegio Marcos Benetezzo</td>
+                        <td>Bachiller en Ciencias</td>
+                        <td>2020 - 2023</td>
+                    </tr>
+                    <tr>
+                        <td>Universidad de Guayaquil</td>
+                        <td>Ingeniería en Software</td>
+                        <td>Cursando</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
 
 </body>
 </html>

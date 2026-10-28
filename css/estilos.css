@@ -1,0 +1,232 @@
+/* Estilos generales */
+body {
+    font-family: 'Product Sans';
+    background-color: #f4f6f0;
+    color: #283820;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilos del encabezado principal */
+.encabezado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: #5f923e;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Imagen de perfil circular */
+.perfil {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+    flex-shrink: 0;
+}
+
+/* Información de texto del encabezado */
+.datos-personales {
+    text-align: center;
+}
+
+.datos-personales h1 {
+    font-size: 24px;
+    margin: 0;
+    color: white;
+}
+
+.datos-personales p {
+    font-size: 16px;
+    margin: 10px 0 0 0;
+    color: #cbffc6;
+}
+
+/* Menú de navegación */
+nav {
+    background-color: #45693e;
+    padding: 12px 10px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* Distribución horizontal de los enlaces */
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    transition: opacity 0.2s ease;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    opacity: 0.85;
+}
+
+
+/* Contenido y títulos */
+
+.contenido {
+    margin-top: 30px;
+}
+
+.contenido h2 {
+    color: #45693e;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 26px;
+}
+
+.contenido h3 {
+    color: #283820;
+    margin-top: 20px;
+}
+
+.contenido p {
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+
+form {
+    background-color: white;
+    width: 450px;
+    max-width: 90%;
+    margin: 30px auto;
+    padding: 25px;
+    border: 1px solid #dcdfd8;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(40, 56, 32, 0.08);
+    box-sizing: border-box;
+}
+
+
+/* Estilos para Tablas */
+
+.tabla-contenedor {
+    width: 100%;
+    max-width: 950px;
+    margin: 25px auto;
+    overflow-x: auto;
+    box-shadow: 0 4px 12px rgba(40, 56, 32, 0.08);
+    border-radius: 4px;
+}
+
+.tabla-estilos {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    font-size: 14px;
+    text-align: left;
+}
+
+.tabla-estilos thead th {
+    background-color: #45693e;
+    color: #ffffff;
+    padding: 14px 18px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.tabla-estilos thead th:last-child {
+    border-right: none;
+    text-align: center;
+}
+
+.tabla-estilos tbody td {
+    padding: 14px 18px;
+    color: #283820;
+    border-bottom: 1px solid #dbe5d4;
+    border-right: 1px solid #dbe5d4;
+}
+
+.tabla-estilos tbody td:last-child {
+    border-right: none;
+    text-align: center;
+}
+
+.tabla-estilos tbody tr:nth-child(even) {
+    background-color: #f1f6ed;
+}
+
+.tabla-estilos tbody tr:hover {
+    background-color: #e2ecd9;
+    transition: background-color 0.15s ease;
+}
+
+
+/* Etiquetas del formulario */
+
+form label {
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    color: #283820;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cbd5c5;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+select{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cbd5c5;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+textarea{
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #cbd5c5;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+button{
+    display: block;
+    width: 100%;
+    background-color: #5f923e;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+button:hover{
+    background-color: #385429;
+}
